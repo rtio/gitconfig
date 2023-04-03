@@ -1,0 +1,13 @@
+[push]
+	autoSetupRemote = true
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
+[user]
+        useConfigOnly = true
+[includeIf "hasconfig:remote.*.url:git@github.com:personaluser/**"]
+        path = ~/.gitconfig.github
+[includeIf "hasconfig:remote.*.url:git@github.company.net:companyuser/**"]
+        path = ~/.gitconfig.github-enterprise
+

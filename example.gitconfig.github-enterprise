@@ -1,0 +1,4 @@
+[user]
+  name = <USER_NAME>
+  email = <name@company.com>
+  signingKey = <GPG_KEY>

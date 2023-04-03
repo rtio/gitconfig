@@ -1,0 +1,4 @@
+[user]
+  name = <USER_NAME>
+  email = <personal-email@gmail.com>
+  signingKey = <GPG_KEY>
